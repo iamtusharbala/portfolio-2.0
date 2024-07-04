@@ -1,0 +1,22 @@
+.publish-card {
+    padding: 3rem;
+    background-color: #090B1A;
+    border-radius: 30px;
+}
+
+.publish-card .card-title {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.publish-card .card-text {
+    font-size: 1.2rem;
+}
+
+.publish-card a {
+    text-decoration: none;
+}
+
+.publish-card a:hover {
+    text-decoration: underline;
+}

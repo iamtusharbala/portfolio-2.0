@@ -1,0 +1,16 @@
+.navbar {
+    width: 100%;
+    background-color: rgba(9, 11, 26, 0.2) !important;
+    height: calc(100vh/10);
+}
+
+.nav-link {
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.125rem;
+}
+
+.nav-link:hover {
+    color: #fff;
+    text-decoration: underline;
+}

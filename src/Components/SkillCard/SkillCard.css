@@ -1,0 +1,27 @@
+.skill-card {
+    width: 220px;
+    height: 270px;
+    background-color: #090B1A;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.skill-card img {
+    width: 100%;
+    padding: 3rem;
+    filter: grayscale(100%);
+    transition: all 0.2s ease;
+}
+
+.skill-card:hover {
+    transform: scale(103%);
+    box-shadow: 5px 20px 77px -35px #000000;
+}
+
+.skill-card img:hover {
+    filter: grayscale(0%);
+    transform: scale(120%);
+}

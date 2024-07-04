@@ -1,0 +1,74 @@
+#home {
+    margin-top: calc(30vh/2) !important;
+    max-height: 70vh;
+}
+
+.profile img {
+    width: 70%;
+    height: 70%;
+    margin: 2rem;
+    border-radius: 50%;
+    box-shadow: 40px 20px 71px -18px #000000;
+}
+
+.hey {
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.name {
+    font-size: 6.25rem;
+    font-weight: 700;
+    color: #5A7D7C;
+}
+
+.desc {
+    font-size: 1.5rem;
+}
+
+.home-contact {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.home-contact>span {
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.btn-talk {
+    background-color: #5A7D7C;
+    font-size: 1.5rem;
+    font-weight: 500;
+    width: 230px;
+    height: 60px;
+    border: 0;
+    padding: 0.5rem;
+    color: #fff;
+    border-radius: 30px;
+}
+
+.download-button {
+    margin-top: 5rem;
+}
+
+.details .fa-solid {
+    margin: 0 0.5rem;
+    color: #5A7D7C;
+}
+
+.fa-arrow-right {
+    color: #000000 !important;
+}
+
+.btn-download {
+    background-color: transparent;
+    border: 2px solid #5A7D7C;
+    width: 300px;
+    padding: 1rem;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
