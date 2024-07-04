@@ -1,4 +1,5 @@
 import './About.css'
+import img from '../../assets/about.jpg'
 
 import React from 'react'
 
@@ -11,7 +12,7 @@ const About = () => {
             </div>
             <div className="row mt-5 justify-content-center align-items-center">
                 <div className="col-lg-6 profile text-center">
-                    <img src="" alt="" srcset="" />
+                    <img src={img} alt="" />
                 </div>
                 <div className="col-lg-6 ms-auto">
                     <div className="details">
@@ -19,7 +20,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            <h3 className='text-center pt-5'>Developer. Dreamer. Coder </h3>
+            <h3 className='text-center ddc pt-5'>Developer. Dreamer. Coder 	<span className='ddc-code'>&lt;/&gt;</span></h3>
         </div>
     )
 }
