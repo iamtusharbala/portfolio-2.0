@@ -19,11 +19,16 @@ const Home = () => {
                     <img src={tusharImg} className='img-fluid' alt="" srcset="" />
                 </div>
             </div>
-            <div className='text-center download-button'>
+            <div className='text-center download-button mb-5'>
                 <button className='btn-download'>Download Resume <i class="fa-solid fa-download"></i></button>
             </div>
 
-
+            <div className="social mt-5">
+                <div className='linkedin'><a href="https://www.linkedin.com/in/tushar-balakrishnan/" target='_blank' rel='noopener noreferrer'><i class="fa-brands fa-linkedin-in"></i></a></div>
+                <div className='github'><a href="https://github.com/iamtusharbala" target='_blank' rel='noopener noreferrer'><i class="fa-brands fa-github"></i></a></div>
+                <div className='twitter'><a href="https://twitter.com/iam_tusharbala" target='_blank' rel='noopener noreferrer'><i class="fa-brands fa-twitter"></i></a></div>
+                <div className='instagram'><a href="https://www.instagram.com/iam_tusharbala/" target='_blank' rel='noopener noreferrer'><i class="fa-brands fa-instagram"></i></a></div>
+            </div>
 
 
 

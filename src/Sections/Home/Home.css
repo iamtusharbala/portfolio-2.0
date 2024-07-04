@@ -76,3 +76,32 @@
     font-size: 1.25rem;
     font-weight: 700;
 }
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    font-size: 4rem;
+}
+
+.social a {
+    color: #5A7D7C;
+    transition: all 0.5s ease;
+}
+
+.social .linkedin a:hover {
+    color: #0A66C2;
+}
+
+.social .github a:hover {
+    color: #191A1C;
+}
+
+.social .twitter a:hover {
+    color: #2A9EF0;
+}
+
+.social .instagram a:hover {
+    color: #D44D80;
+}
