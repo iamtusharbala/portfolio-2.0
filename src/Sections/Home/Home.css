@@ -58,6 +58,10 @@
     color: #5A7D7C;
 }
 
+.details a {
+    text-decoration: none;
+}
+
 .fa-arrow-right {
     color: #000000 !important;
 }

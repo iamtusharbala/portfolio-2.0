@@ -11,12 +11,12 @@ function App() {
   return (
     <>
       <NavBar />
-      <section><Home /></section>
-      <section><About /></section>
-      <section><Skills /></section>
-      <section><Projects /></section>
-      <section><Publishing /></section>
-      <section><Contact /></section>
+      <section id='home'><Home /></section>
+      <section id='about'><About /></section>
+      <section id='skills'><Skills /></section>
+      <section id='projects'><Projects /></section>
+      <section id='publishing'><Publishing /></section>
+      <section id='contact'><Contact /></section>
     </>
   )
 }

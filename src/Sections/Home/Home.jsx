@@ -12,7 +12,7 @@ const Home = () => {
                         <h1 className='name'>I'm Tushar.</h1>
                         <h4 className='desc'>I am a MERN Stack and Node.js Developer with 3 years of hands-on experience in IT support and development projects.</h4>
                         <p className='home-contact my-3'><i class="fa-solid fa-phone"></i> <span>+91 8138093878</span> | <i class="fa-solid fa-envelope"></i> <span>tusharbala284@gmail.com</span></p>
-                        <button type="button" class="btn-lg text-center btn-talk mt-4">Let's Talk <i class="fa-solid fa-arrow-right"></i></button>
+                        <a type="button" class="btn-lg text-center btn-talk mt-4" href='#contact'>Let's Talk <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
                 <div className="col-lg-6 profile text-center">
