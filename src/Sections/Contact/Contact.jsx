@@ -12,7 +12,7 @@ const Contact = () => {
             <div className="contact">
                 <Form />
             </div>
-            <h3 className='text-center pt-5'>Made with ❤️ in Kochi.</h3>
+            <h3 className='text-center p-5'>Made with ❤️ in Kochi.</h3>
         </div>
     )
 }

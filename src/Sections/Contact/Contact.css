@@ -5,3 +5,16 @@
     border-radius: 30px;
     padding: 5rem;
 }
+
+@media (max-width: 1000px) {
+    .contact {
+        padding: 3rem;
+    }
+}
+
+
+@media (max-width: 550px) {
+    .contact {
+        padding: 1.5rem;
+    }
+}

@@ -1,9 +1,19 @@
 .about-desc {
-    font-size: 1.725em;
+    font-size: 1.75rem;
     text-align: end;
 }
 
 .ddc-code {
     color: #5A7D7C;
     font-weight: 600;
+}
+
+@media(max-width:997px) {
+    .ddc {
+        font-size: 2rem;
+    }
+
+    .about-desc {
+        font-size: 1.2rem;
+    }
 }

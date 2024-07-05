@@ -10,7 +10,7 @@ const About = () => {
                 <div className='heading-border mx-auto mb-3'></div>
                 <h1 className='section-heading'>About</h1>
             </div>
-            <div className="row mt-5 justify-content-center align-items-center">
+            <div className="row mt-5 about-desc justify-content-center align-items-center">
                 <div className="col-lg-6 profile text-center">
                     <img src={img} alt="" />
                 </div>
@@ -20,7 +20,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            <h3 className='text-center ddc pt-5'>Developer. Dreamer. Coder 	<span className='ddc-code'>&lt;/&gt;</span></h3>
+            <h3 className='text-center ddc p-5'>Developer. Dreamer. Coder 	<span className='ddc-code'>&lt;/&gt;</span></h3>
         </div>
     )
 }

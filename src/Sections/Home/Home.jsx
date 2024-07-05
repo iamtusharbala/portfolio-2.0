@@ -4,7 +4,7 @@ import tusharImg from './../../assets/profile-pic.png'
 
 const Home = () => {
     return (
-        <section className="container mt-5" id='home'>
+        <section className="container" id='home'>
             <div className="row justify-content-center align-items-center">
                 <div className="col-lg-6 ms-auto">
                     <div className="details">
@@ -19,11 +19,11 @@ const Home = () => {
                     <img src={tusharImg} className='img-fluid' alt="" />
                 </div>
             </div>
-            <div className='text-center download-button mb-5'>
+            <div className='text-center download-button'>
                 <button className='btn-download'>Download Resume <i className="fa-solid fa-download"></i></button>
             </div>
 
-            <div className="social mt-5">
+            <div className="social">
                 <div className='linkedin'><a href="https://www.linkedin.com/in/tushar-balakrishnan/" target='_blank' rel='noopener noreferrer'><i className="fa-brands fa-linkedin-in"></i></a></div>
                 <div className='github'><a href="https://github.com/iamtusharbala" target='_blank' rel='noopener noreferrer'><i className="fa-brands fa-github"></i></a></div>
                 <div className='twitter'><a href="https://twitter.com/iam_tusharbala" target='_blank' rel='noopener noreferrer'><i className="fa-brands fa-twitter"></i></a></div>
