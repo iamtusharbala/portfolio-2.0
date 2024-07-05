@@ -78,6 +78,11 @@
     font-weight: 700;
 }
 
+.btn-download a {
+    text-decoration: none;
+    color: #fff;
+}
+
 .social {
     display: flex;
     justify-content: center;

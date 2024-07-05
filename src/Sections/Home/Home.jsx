@@ -1,6 +1,7 @@
 import './Home.css'
 import React from 'react'
 import tusharImg from './../../assets/profile-pic.png'
+import resume from '../../assets/document/Tushar_Balakrishnan_Resume.pdf'
 
 const Home = () => {
     return (
@@ -20,7 +21,7 @@ const Home = () => {
                 </div>
             </div>
             <div className='text-center download-button'>
-                <button className='btn-download'>Download Resume <i className="fa-solid fa-download"></i></button>
+                <button className='btn-download'><a href={resume} target='_blank' rel='noopener noreferrer'>Download Resume <i className="fa-solid fa-download"></i></a></button>
             </div>
 
             <div className="social">
