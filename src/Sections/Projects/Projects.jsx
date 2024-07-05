@@ -12,7 +12,7 @@ const Projects = () => {
                 <h1 className='section-heading'>Projects</h1>
             </div>
             <div className="projects py-3 pb-5">
-                {projects.map(project => <ProjectCard name={project.name} description={project.description} image={project.image} url={project.url} />)}
+                {projects.map(project => <ProjectCard key={project.name} name={project.name} description={project.description} image={project.image} url={project.url} />)}
             </div>
         </div>
     )

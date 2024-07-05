@@ -12,7 +12,7 @@ const Skills = () => {
                 <h1 className='section-heading'>Skills</h1>
             </div>
             <div className="skills my-5">
-                {skills.map(skill => <SkillCard name={skill.name} image={skill.image} />)}
+                {skills.map(skill => <SkillCard key={skill.name} name={skill.name} image={skill.image} />)}
             </div>
         </div>
     )
