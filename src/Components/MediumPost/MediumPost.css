@@ -1,0 +1,35 @@
+.posts-container {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem
+}
+
+.post {
+    width: 500px;
+    background-color: #090B1A;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    transition: all 0.3s linear;
+    margin: auto;
+    margin-bottom: 3rem;
+    height: auto;
+}
+
+.post a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.post a:hover {
+    text-decoration: underline;
+}
+
+.post-category {
+    font-size: 1rem;
+    font-style: italic;
+}

@@ -1,3 +1,4 @@
+import MediumPost from '../../Components/MediumPost/MediumPost'
 import PublishCard from '../../Components/PublishCard/PublishCard'
 import './Publishing.css'
 
@@ -12,6 +13,9 @@ const Publishing = () => {
             </div>
             <div className="publishing py-3">
                 <PublishCard />
+            </div>
+            <div className="medium">
+                <MediumPost />
             </div>
         </div>
     )
