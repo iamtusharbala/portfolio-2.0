@@ -1,6 +1,6 @@
 #home {
     margin-top: calc(30vh/3) !important;
-    width: fit-content;
+    width: auto;
     overflow: hidden;
 }
 
