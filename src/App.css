@@ -17,6 +17,7 @@ body {
 section {
   min-height: 100vh;
   box-sizing: content-box;
+
 }
 
 section:nth-of-type(1n) {
