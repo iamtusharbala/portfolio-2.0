@@ -3,6 +3,7 @@ import skycast from './project/skycast.png'
 import userAuth from './project/user-auth.png'
 import jobPortal from './project/job-portal.png'
 import spotifyApp from './project/spotify-clone.png'
+import newsApp from './project/quick-news.jpg'
 
 export const projects = [{
     name: "Netflix Clone",
@@ -33,4 +34,10 @@ export const projects = [{
     description: "A Spotify clone that allows users to search and play songs. Built with React.",
     image: spotifyApp,
     url: "https://github.com/iamtusharbala/Spotify-Clone"
-}]
+}, {
+    name: "QuickNews App",
+    description: "A news app that allows users to search for news articles. Built with React and News API.",
+    image: newsApp,
+    url: "https://github.com/iamtusharbala/quick-news"
+}
+]
