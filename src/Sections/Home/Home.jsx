@@ -10,8 +10,9 @@ const Home = () => {
                 <div className="col-lg-6 ms-auto">
                     <div className="details">
                         <h1 className='hey'>Hey there.</h1>
-                        <h1 className='name'>I'm Tushar.</h1>
-                        <h4 className='desc'>I am a MERN Stack and Node.js Developer with 3 years of hands-on experience in IT support and development projects.</h4>
+                        <h1 className='name'>I'm Tushar.👋</h1>
+                        <h5 className='desc'>🚀 ServiceNow Developer | Certified Implementation Specialist</h5>
+                        <h5 className='desc'>💡 Passionate about building and automating enterprise workflows using ServiceNow.</h5>
                         <p className='home-contact my-3'><i className="fa-solid fa-phone"></i> <span>+91 8138093878</span> | <i className="fa-solid fa-envelope"></i> <span>tusharbala284@gmail.com</span></p>
                         <a type="button" className="btn-lg text-center btn-talk mt-4" href='#contact'>Let's Talk <i className="fa-solid fa-arrow-right"></i></a>
                     </div>
@@ -27,7 +28,7 @@ const Home = () => {
             <div className="social">
                 <div className='linkedin'><a href="https://www.linkedin.com/in/tushar-balakrishnan/" target='_blank' rel='noopener noreferrer'><i className="fa-brands fa-linkedin-in"></i></a></div>
                 <div className='github'><a href="https://github.com/iamtusharbala" target='_blank' rel='noopener noreferrer'><i className="fa-brands fa-github"></i></a></div>
-                <div className='twitter'><a href="https://twitter.com/iam_tusharbala" target='_blank' rel='noopener noreferrer'><i className="fa-brands fa-twitter"></i></a></div>
+                <div className='twitter'><a href="https://twitter.com/iam_tusharbala" target='_blank' rel='noopener noreferrer'><i class="fa-brands fa-x-twitter"></i></a></div>
                 <div className='instagram'><a href="https://www.instagram.com/iam_tusharbala/" target='_blank' rel='noopener noreferrer'><i className="fa-brands fa-instagram"></i></a></div>
             </div>
 

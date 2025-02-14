@@ -1,6 +1,5 @@
 import './SkillCard.css'
 import React from 'react'
-import pic from "../../assets/skills/react.png"
 
 const SkillCard = ({ name, image }) => {
     return (

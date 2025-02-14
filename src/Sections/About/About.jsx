@@ -16,7 +16,9 @@ const About = () => {
                 </div>
                 <div className="col-lg-6 ms-auto">
                     <div className="details">
-                        <p className='about-desc'>I am a Senior Systems Engineer at Infosys. With 3 years as a MERN Stack and Node.js Developer, I excel in building and maintaining web applications using MongoDB, Express.js, React, and Node.js. My IT support background aids in troubleshooting and optimizing systems, ensuring reliable, high-performing applications. I enjoy crafting seamless digital experiences and solving complex problems.</p>
+                        <p className='about-desc'>💼 Associate Consultant at Infosys</p>
+                        <p className='about-desc'>🔹 ServiceNow Developer with expertise in custom application development, ITSM, Discovery, and integrations.</p>
+                        <p className='about-desc'>🔹 Experienced in automating IT workflows and optimizing business processes using ServiceNow.</p>
                     </div>
                 </div>
             </div>
